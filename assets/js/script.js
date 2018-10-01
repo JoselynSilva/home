@@ -58,7 +58,7 @@ $(document).ready(function () {
 	$(window).resize(closeMenu());
 
 	$('.carousel').carousel({
-		interval: 3500,
+		interval: 3200,
 		pause: false,
 	})
 
