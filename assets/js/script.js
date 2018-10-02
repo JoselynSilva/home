@@ -58,8 +58,8 @@ $(document).ready(function () {
 	$(window).resize(closeMenu());
 
 	$('.carousel').carousel({
-		interval: 3200,
-		pause: false,
+		// interval: 3200,
+		// pause: false,
 	})
 
 	// Smooth scroll to content
