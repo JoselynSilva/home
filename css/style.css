@@ -525,22 +525,22 @@ Tabla de Contenido
 }
 
 .header .arrow a :hover {
-    background: #fff; 
+    background: #fff;
     color: #F24259;
 }
 
 @keyframes intervalHamburgerBorder {
-	0% {
-		opacity: 1;
-		transform: scale(1);
-	}
-	80% {
-		transform: scale(1.6);
-	}
-	100% {
-		opacity: 0;
-		transform: scale(1.6);
-	}
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    80% {
+        transform: scale(1.6);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.6);
+    }
 }
 
 .header .arrow i {
@@ -550,9 +550,9 @@ Tabla de Contenido
     height: 40px;
     line-height: 40px;
     cursor: pointer;
-	border-radius: 50%;
+    border-radius: 50%;
     pointer-events: auto;
-    background: #F24259; 
+    background: #F24259;
 }
 
 .header .arrow i:after {
@@ -566,24 +566,24 @@ Tabla de Contenido
     z-index: -1;
     transition: all .2s;
     display: block;
-	pointer-events: none;
-	border: 4px solid #fff;
-	border-radius: 50%;
-	animation-duration: 1.2s;
-	animation-name: intervalHamburgerBorder;
-	animation-iteration-count: infinite;
+    pointer-events: none;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    animation-duration: 1.2s;
+    animation-name: intervalHamburgerBorder;
+    animation-iteration-count: infinite;
 }
 
 .header .arrow i:hover:after {
     transform: scale(1.2);
     transition: all .5s;
     display: block;
-	pointer-events: none;
-	border: 4px solid #F24259;
-	border-radius: 50%;
-	animation-duration: 1.2s;
-	animation-name: intervalHamburgerBorder;
-	animation-iteration-count: infinite;
+    pointer-events: none;
+    border: 4px solid #F24259;
+    border-radius: 50%;
+    animation-duration: 1.2s;
+    animation-name: intervalHamburgerBorder;
+    animation-iteration-count: infinite;
 }
 
 .ml5 {
@@ -668,6 +668,41 @@ Tabla de Contenido
     right: 0;
     font-size: 10px;
     color: #777;
+}
+
+.img-skill {
+    width: 30px;
+    height: 30px;
+}
+
+.feature-box {
+    display: table;
+    width: 100%;
+    padding: 15px 5px;
+}
+
+.display-table-cell1 {
+    display: table-cell !important;
+    width: 35px;
+}
+
+.margin-5px-top {
+    margin-top: 5px;
+}
+
+.btn-cv {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.p-skill,
+.p-emoji {
+    margin: 0px;
+}
+
+.p-emoji {
+    font-size: 25px;
+    text-align: center;
 }
 
 
