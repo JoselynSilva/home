@@ -537,7 +537,7 @@ h6 {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
     overflow: hidden
 }
 
@@ -5892,7 +5892,8 @@ section {
 }
 
 .feature-box1 {
-    display: table
+    display: table;
+    padding: 20px 30px;
 }
 
 .feature-box2 {
@@ -12636,7 +12637,9 @@ section {
     }
     .sm-padding-50px-tb {
         padding-top: 50px !important;
-        padding-bottom: 50px !important
+        padding-bottom: 50px !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
     }
     .sm-padding-55px-tb {
         padding-top: 55px !important;
@@ -16281,7 +16284,9 @@ section {
     }
     .xs-padding-50px-tb {
         padding-top: 50px !important;
-        padding-bottom: 50px !important
+        padding-bottom: 50px !important;
+        padding-left: 50px !important;
+        padding-right: 50px !important;
     }
     .xs-padding-55px-tb {
         padding-top: 55px !important;
