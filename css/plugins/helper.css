@@ -11,7 +11,7 @@ body {
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
     font-size: 14px;
-    color: #6f6f6f;
+    color: #232323;
     font-weight: 400;
     line-height: 24px
 }
@@ -24,7 +24,7 @@ html {
 a,
 a:active,
 a:focus {
-    color: #6f6f6f;
+    color: #232323;
     text-decoration: none;
     transition-timing-function: ease-in-out;
     -ms-transition-timing-function: ease-in-out;
@@ -353,7 +353,8 @@ h6 {
 }
 
 .text-black {
-    color: #000
+    color: #000;
+    font-size: 15px;
 }
 
 .text-extra-dark-gray {
@@ -3525,7 +3526,7 @@ section {
 }
 
 .padding-ten-all {
-    padding: 10%
+    padding: 0% 10%
 }
 
 .padding-ten-half-all {

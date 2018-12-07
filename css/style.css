@@ -42,6 +42,7 @@ Tabla de Contenido
 .bg-img {
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .valign {
@@ -58,9 +59,8 @@ Tabla de Contenido
     font-size: 14px;
     min-width: 160px;
     padding: 12px 20px;
-    background: #fff;
-    border: 2px solid #222;
-    color: #232323;
+    background: #F24259;
+    color: #fff;
     letter-spacing: .5px;
     line-height: inherit;
     border-radius: 0;
@@ -74,8 +74,8 @@ Tabla de Contenido
 
 .btn:hover,
 .btn:active {
-    background: #F24259;
-    color: #fff;
+    background: #fff;
+    color: #F24259;
     border-color: #F24259;
 }
 
@@ -675,6 +675,12 @@ Tabla de Contenido
     height: 30px;
 }
 
+.icon-skill {
+    width: 50px;
+    height: 50px;
+    margin: 5px 8px;
+}
+
 .feature-box {
     display: table;
     width: 100%;
@@ -692,7 +698,7 @@ Tabla de Contenido
 
 .btn-cv {
     text-align: center;
-    padding-top: 35px;
+    padding-top: 20px;
 }
 
 .p-skill,
@@ -704,6 +710,7 @@ Tabla de Contenido
     font-size: 25px;
     text-align: center;
 }
+
 
 /*============================== 
     Portfolio
@@ -983,24 +990,19 @@ Tabla de Contenido
     z-index: 4;
 }
 
-.contact #ieatmaps {
-    height: 100%;
-}
-
 .contact .info {
-    background: rgba(0, 0, 0, 0.9);
+    background: #000000;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    color: #fff;
+    color: #ff214f;
+    font-size: 30px;
     transition: all .5s;
 }
 
 .contact .info .icon-toggle {
-    width: 100px;
-    height: 100px;
     background: #F24259;
     font-size: 20px;
     transform: rotate(45deg);
@@ -1022,7 +1024,7 @@ Tabla de Contenido
 .contact .info .item {
     margin-bottom: 30px;
     padding-bottom: 30px;
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid rgba(179, 177, 177, 0.719);
 }
 
 .contact .info .item:last-child {
@@ -1032,7 +1034,7 @@ Tabla de Contenido
 }
 
 .contact .info .item .icon {
-    font-size: 20px;
+    font-size: 25px;
     float: left;
     width: 50px;
     text-align: center;
@@ -1049,17 +1051,8 @@ Tabla de Contenido
 }
 
 .contact .info .item .cont p {
-    color: #999;
+    color: rgb(73, 70, 70);
     margin: 0;
-}
-
-.contact .map-show {
-    left: -100%;
-}
-
-.contact .map-show .icon-toggle {
-    z-index: 2;
-    transition-delay: .3s;
 }
 
 
@@ -1537,7 +1530,7 @@ ul.countdown li p.timeRefSeconds {
 }
 
 .footer-social a i {
-    color: #626262;
+    color: #c5bfbf;
     font-size: 22px;
 }
 
