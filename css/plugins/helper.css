@@ -260,7 +260,8 @@ h6 {
 
 .font-size20 {
     font-size: 20px;
-    line-height: normal
+    line-height: normal;
+    margin: 5px;
 }
 
 .font-size22 {
@@ -493,7 +494,7 @@ h6 {
 }
 
 .bg-pink {
-    background-color: #ff214f
+    background-color: #F24259
 }
 
 .bg-transparent-white {
