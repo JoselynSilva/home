@@ -609,15 +609,20 @@ Tabla de Contenido
     margin: auto;
     height: 3px;
     width: 100%;
-    background-color: #ffce3f;
+    background-color: #F24259;
     transform-origin: 0.5 0;
 }
 
 .ml5 .letters {
     display: inline-block;
     opacity: 0;
-    color: #F24259;
+    color: rgb(255, 255, 255);
     font-family: 'Unica One', cursive;
+}
+
+.text-bold {
+    font-weight: 600;
+    color: #000;
 }
 
 
@@ -1530,7 +1535,7 @@ ul.countdown li p.timeRefSeconds {
 }
 
 .footer-social a i {
-    color: #c5bfbf;
+    color: #ffffff;
     font-size: 22px;
 }
 
@@ -1640,19 +1645,6 @@ ul.countdown li p.timeRefSeconds {
     .header .caption p {
         font-size: 16px;
     }
-    .clients {
-        padding-bottom: 50px;
-    }
-    .clients .brand {
-        padding-bottom: 0;
-        padding-top: 50px;
-    }
-    .clients .brand img {
-        max-width: 150px;
-    }
-    .contact .map {
-        height: 530px;
-    }
     .contact .info .icon-toggle {
         transform: rotate(135deg);
         top: calc(100% - 80px);
@@ -1661,10 +1653,6 @@ ul.countdown li p.timeRefSeconds {
     .contact .info .icon-toggle i {
         transform: rotate(-135deg) !important;
         right: 4px;
-    }
-    .contact .map-show {
-        top: -100%;
-        left: 0;
     }
     .blog-nav .navbar-nav .nav-link {
         color: #fff;
