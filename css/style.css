@@ -32,7 +32,6 @@ Tabla de Contenido
     
 ---------------------------------- */
 
-@import url('https://fonts.googleapis.com/css?family=Unica+One');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 /*============================== 
@@ -428,6 +427,7 @@ Tabla de Contenido
 }
 
 .header .caption h3 {
+    margin: 0px;
     font-weight: 200;
     letter-spacing: 3px;
     animation-delay: 0.5s;
@@ -1722,4 +1722,54 @@ ul.countdown li p.timeRefSeconds {
     .ml5 .letters {
         font-size: 1.5em;
     }
+}
+
+
+/*------------------------------
+  PRELOADER SECTION START
+  ------------------------------*/
+
+#preloader {
+    background: white;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+#preloader .spiner {
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#preloader .spin {
+    background: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 50%;
+    animation: spin 800ms linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.logo-letter {
+    margin: 0px;
+    width: 520px;
+    height: 325px;
 }

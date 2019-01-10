@@ -1,12 +1,4 @@
 /*-----------------------------------------------------------------------------------
-
-    Theme Name: Accord: Creative One Page Multipurpose Template
-    Description: Creative One Page Multipurpose Template
-    Author: chitrakootweb
-    Version: 1.0
-
-    /* ----------------------------------
-
     JS Active Code Index
             
         01. scrollIt
@@ -37,6 +29,14 @@ $(function() {
 
     var wind = $(window);
 
+    //  Preloader Activation
+
+    $(window).on('load', function() {
+        $('#preloader').fadeOut('slow', function() {
+            $(this).remove();
+        });
+    });
+
     // scrollIt
     $.scrollIt({
         upKey: 38, // key code to navigate to the next section
@@ -47,28 +47,6 @@ $(function() {
         onPageChange: null, // function(pageIndex) that is called when page is changed
         topOffset: -80 // offste (in px) for fixed top navigation
     });
-
-
-    // Add Class Reveal for Scroll to Top
-    wind.on('scroll', function() {
-        if (wind.width() > 600) {
-            if (wind.scrollTop() > 600) {
-                $('#back-to-top').addClass('reveal');
-            } else {
-                $('#back-to-top').removeClass('reveal');
-            }
-        }
-    });
-
-
-    // ScrollUp Active Code
-    $('#back-to-top').on('click', function() {
-        $("html, body").animate({
-            scrollTop: 0
-        }, 1000);
-        return true;
-    });
-
 
     // wow animation - on scroll
     var wow = new WOW({

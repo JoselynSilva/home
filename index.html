@@ -9,9 +9,43 @@
     <link rel="icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/plugins.css" />
     <link rel="stylesheet" href="css/style.css" />
+
 </head>
 
-<body onload="init();">
+<body>
+    <!-- preloader start -->
+    <div id="preloader">
+        <div class="spiner">
+            <div class="spin"></div>
+        </div>
+    </div>
+    <!-- preloader end -->
+
+    <header class="header valign bg-img background-position-top" data-scroll-index="0" data-overlay-dark="7" style="background-image: url('img/bg.jpg')" data-stellar-background-ratio="0.5">
+        <div id="particles-js"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center caption">
+                    <img class="logo-letter" src="img/Jos.png" height="300">
+                    <!-- <h1 class="ml5">
+                        <span class="text-wrapper">
+                            <span class="line line1"></span>
+                        <span class="letters letters-left">Joselyn</span>
+                        <span class="letters letters-right">Silva</span>
+                        <span class="line line2"></span>
+                        </span>
+                    </h1> -->
+                    <br>
+                    <h3 class="alt-font font-size28 sm-font-size18 no-margin">UX Designer</h3>
+                    <p class="xs-display-none">Mejorando la experiencia del usuario a tráves de la tecnología y el diseño.</p>
+                </div>
+            </div>
+        </div>
+        <div class="arrow">
+            <a href="javascript:void(0);" data-scroll-nav="1"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </header>
+
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="logo" href="javascript:void(0);" data-scroll-nav="0">
@@ -34,33 +68,10 @@
         </div>
     </nav>
 
-    <header class="header valign bg-img background-position-top" data-scroll-index="0" data-overlay-dark="7" data-background="img/bg2.jpg" data-stellar-background-ratio="0.5">
-        <div id="particles-js"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center caption">
-                    <h1 class="ml5">
-                        <span class="text-wrapper">
-                            <span class="line line1"></span>
-                        <span class="letters letters-left">Joselyn</span>
-                        <span class="letters letters-right">Silva</span>
-                        <span class="line line2"></span>
-                        </span>
-                    </h1>
-                    <h3 class="alt-font font-size28 sm-font-size18 no-margin">UX Designer</h3>
-                    <p class="xs-display-none">Mejorando la experiencia del usuario a tráves de la tecnología y el diseño.</p>
-                </div>
-            </div>
-        </div>
-        <div class="arrow">
-            <a href="javascript:void(0);" data-scroll-nav="1"><i class="fas fa-chevron-down"></i></a>
-        </div>
-    </header>
-
     <section class="hero no-padding-bottom" data-scroll-index="1">
         <div class="container margin-30px-bottom">
             <div class="row">
-                <div class="col-12 center-col margin-50px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center wow fadeInUp">
+                <div class="col-12 center-col margin-40px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center wow fadeInUp">
                     <div class="alt-font text-pink-color margin-5px-bottom text-uppercase letter-spacing-1">Sobre mí</div>
                     <h5 class="margin-10px-bottom font-weight-300">Mis<span class="font-weight-500"> grandes </span>deseos.</h5>
                     <div class="separator-line-horrizontal-medium-light2 bg-pink center-col"></div>
@@ -150,7 +161,7 @@
     <section class="services bg-light-gray" data-scroll-index="2">
         <div class="container">
             <div class="row">
-                <div class="col-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-40px-bottom text-center wow fadeInUp">
+                <div class="col-12 center-col margin-40px-bottom sm-margin-40px-bottom xs-margin-40px-bottom text-center wow fadeInUp">
                     <div class="alt-font text-pink-color margin-5px-bottom text-uppercase text-small letter-spacing-1">Proceso</div>
                     <h5 class="margin-10px-bottom font-weight-300">Mi <span class="font-weight-500">marco</span> de trabajo.</h5>
                     <div class="separator-line-horrizontal-medium-light2 bg-pink center-col"></div>
@@ -158,7 +169,7 @@
             </div>
             <div class="row">
                 <div data-wow-duration="0.4s" class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom wow fadeInUp">
-                    <div class="bg-white border border-width-2 border-color-extra-light-gray text-center padding-30px-tb xs-padding-15px-lr feature-box2">
+                    <div class="bg-white border border-width-2 border-color-extra-light-gray text-center padding-30px-tb xs-padding-15px-lr feature-box2 rounded">
                         <div class="display-inline-block margin-20px-bottom xs-margin-10px-bottom"><i class="icon icon-tools font-size36"></i></div>
                         <div class="alt-font text-extra-dark-gray margin-10px-bottom">UX RESEARCH</div>
                         <div class="separator-line-horrizontal-medium-light3 bg-pink center-col margin-15px-bottom margin-15px-top"></div>
@@ -166,7 +177,7 @@
                     </div>
                 </div>
                 <div data-wow-duration="0.6s" class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom wow fadeInUp">
-                    <div class="bg-white border border-width-2 border-color-extra-light-gray text-center padding-30px-tb xs-padding-15px-lr feature-box2">
+                    <div class="bg-white border border-width-2 border-color-extra-light-gray text-center padding-30px-tb xs-padding-15px-lr feature-box2 rounded">
                         <div class="display-inline-block margin-20px-bottom xs-margin-10px-bottom"><i class="icon icon-mobile font-size36"></i></div>
                         <div class="alt-font text-extra-dark-gray margin-10px-bottom">DISEÑO VISUAL</div>
                         <div class="separator-line-horrizontal-medium-light3 bg-pink center-col margin-15px-bottom margin-15px-top"></div>
@@ -174,7 +185,7 @@
                     </div>
                 </div>
                 <div data-wow-duration="1s" class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom wow fadeInUp">
-                    <div class="bg-white border border-width-2 border-color-extra-light-gray text-center padding-30px-tb xs-padding-15px-lr feature-box2">
+                    <div class="bg-white border border-width-2 border-color-extra-light-gray text-center padding-30px-tb xs-padding-15px-lr feature-box2 rounded">
                         <div class="display-inline-block margin-20px-bottom xs-margin-10px-bottom"><i class="icon icon-gears font-size36"></i></div>
                         <div class="alt-font text-extra-dark-gray margin-10px-bottom">ARQUITECTURA DE LA INFORMACIÓN</div>
                         <div class="separator-line-horrizontal-medium-light3 bg-pink center-col margin-15px-bottom margin-15px-top"></div>
@@ -182,7 +193,7 @@
                     </div>
                 </div>
                 <div data-wow-duration="0.4s" class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom wow fadeInUp">
-                    <div class="bg-white border border-width-2 border-color-extra-light-gray text-center padding-30px-tb xs-padding-15px-lr feature-box2">
+                    <div class="bg-white border border-width-2 border-color-extra-light-gray text-center padding-30px-tb xs-padding-15px-lr feature-box2 rounded">
                         <div class="display-inline-block margin-20px-bottom xs-margin-10px-bottom"><i class="icon icon-layers font-size36"></i></div>
                         <div class="alt-font text-extra-dark-gray margin-10px-bottom">DISEÑO DE INTERACCION</div>
                         <div class="separator-line-horrizontal-medium-light3 bg-pink center-col margin-15px-bottom margin-15px-top"></div>
@@ -190,7 +201,7 @@
                     </div>
                 </div>
                 <div data-wow-duration="0.6s" class="col-lg-4 col-md-6 sm-margin-30px-bottom xs-margin-20px-bottom wow fadeInUp">
-                    <div class="bg-white border border-width-2 border-color-extra-light-gray text-center padding-30px-tb xs-padding-15px-lr feature-box2">
+                    <div class="bg-white border border-width-2 border-color-extra-light-gray text-center padding-30px-tb xs-padding-15px-lr feature-box2 rounded">
                         <div class="display-inline-block margin-20px-bottom xs-margin-10px-bottom"><i class="icon icon-presentation font-size36"></i></div>
                         <div class="alt-font text-extra-dark-gray margin-10px-bottom">USABILIDAD</div>
                         <div class="separator-line-horrizontal-medium-light3 bg-pink center-col margin-15px-bottom margin-15px-top"></div>
@@ -198,11 +209,11 @@
                     </div>
                 </div>
                 <div data-wow-duration="1s" class="col-lg-4 col-md-6 sm-margin-30px-bottom xs-margin-20px-bottom wow fadeInUp">
-                    <div class="bg-white border border-width-2 border-color-extra-light-gray text-center padding-30px-tb xs-padding-15px-lr feature-box2">
+                    <div class="bg-white border border-width-2 border-color-extra-light-gray text-center padding-30px-tb xs-padding-15px-lr feature-box2 rounded">
                         <div class="display-inline-block margin-20px-bottom xs-margin-10px-bottom"><i class="icon icon-genius font-size36"></i></div>
-                        <div class="alt-font text-extra-dark-gray margin-10px-bottom">CÓDIGO</div>
+                        <div class="alt-font text-extra-dark-gray margin-10px-bottom">DESIGN THINKING</div>
                         <div class="separator-line-horrizontal-medium-light3 bg-pink center-col margin-15px-bottom margin-15px-top"></div>
-                        <p class="width-75 md-width-90 xs-width-100 center-col no-margin-bottom text-justify">Plasmo soluciones rápidas hasta lograr el resultado final, usando distintas herramientas como HTML5, CSS3 y JS.</p>
+                        <p class="width-75 md-width-90 xs-width-100 center-col no-margin-bottom text-justify">Esta metodología me permite trabajar en sprints para crear MVP tomando en cuenta las necesidades de los usuarios.</p>
                     </div>
                 </div>
             </div>
@@ -248,7 +259,7 @@
     <section class="portfolio" data-scroll-index="3">
         <div class="container">
             <div class="row">
-                <div class="col-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-40px-bottom text-center wow fadeInUp">
+                <div class="col-12 center-col margin-40px-bottom sm-margin-40px-bottom xs-margin-40px-bottom text-center wow fadeInUp">
                     <div class="alt-font text-pink-color margin-5px-bottom text-uppercase letter-spacing-1">Proyectos</div>
                     <h5 class="margin-10px-bottom font-weight-300">Mi <span class="font-weight-500">creativo</span> portafolio</h5>
                     <div class="separator-line-horrizontal-medium-light2 bg-pink center-col"></div>
@@ -425,10 +436,10 @@
         </div>
     </footer>
 
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/jquery-migrate-3.0.0.min.js"></script>
     <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/scrollIt.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="js/animated.headline.js"></script>
