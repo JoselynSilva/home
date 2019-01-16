@@ -58,7 +58,7 @@ Tabla de Contenido
     font-size: 14px;
     min-width: 160px;
     padding: 12px 20px;
-    background: #F02A44;
+    background: #F2DFDC;
     color: #fff;
     letter-spacing: .5px;
     line-height: inherit;
@@ -74,15 +74,15 @@ Tabla de Contenido
 .btn:hover,
 .btn:active {
     background: #fff;
-    color: #F02A44;
-    border-color: #F02A44;
+    color: #eb5252;
+    border-color: #eb5252;
 }
 
 .btn:focus {
-    background: #F02A44;
+    background: #eb5252;
     color: #fff;
     box-shadow: none;
-    border-color: #F02A44;
+    border-color: #eb5252;
 }
 
 
@@ -148,7 +148,7 @@ Tabla de Contenido
 }
 
 .caption .highlight {
-    color: #F02A44;
+    color: #eb5252;
 }
 
 .banner-headline.clip .banner-words-wrapper {
@@ -187,8 +187,8 @@ Tabla de Contenido
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #F02A44;
-    border-color: #F02A44;
+    background: #eb5252;
+    border-color: #eb5252;
 }
 
 .slider .arrow,
@@ -294,16 +294,16 @@ Tabla de Contenido
 }
 
 .navbar .navbar-nav .nav-link:hover {
-    color: #F02A44 !important;
+    color: #eb5252 !important;
 }
 
 .navbar .navbar-nav .active {
-    color: #F02A44 !important;
+    color: #eb5252 !important;
     position: relative;
 }
 
 .navbar .navbar-nav .active:after {
-    background: #F02A44 !important;
+    background: #eb5252 !important;
     border-radius: 10px;
     bottom: 5px;
     content: "";
@@ -403,7 +403,7 @@ Tabla de Contenido
     width: auto;
     top: 15px;
     position: absolute;
-    color: #F02A44;
+    color: #eb5252;
 }
 
 .accordion-style .card-body {
@@ -436,7 +436,7 @@ Tabla de Contenido
 }
 
 .header .caption h3:after {
-    background: #F02A44;
+    background: #eb5252;
     content: "";
     height: 2px;
     position: absolute;
@@ -446,7 +446,7 @@ Tabla de Contenido
 }
 
 .header .caption h3:before {
-    background: #F02A44;
+    background: #eb5252;
     content: "";
     height: 2px;
     left: -30px;
@@ -464,7 +464,7 @@ Tabla de Contenido
 }
 
 .header .caption h1 b {
-    color: #F02A44;
+    color: #eb5252;
     font-weight: 500;
 }
 
@@ -497,13 +497,13 @@ Tabla de Contenido
 
 .header .caption .btn:hover,
 .header .caption .btn:active {
-    background: #F02A44;
+    background: #eb5252;
     color: #fff;
-    border-color: #F02A44;
+    border-color: #eb5252;
 }
 
 .header .caption .btn:focus {
-    background: #F02A44;
+    background: #eb5252;
     color: #fff;
     box-shadow: none;
 }
@@ -526,7 +526,7 @@ Tabla de Contenido
 
 .header .arrow a :hover {
     background: #fff;
-    color: #F02A44;
+    color: #eb5252;
 }
 
 @keyframes intervalHamburgerBorder {
@@ -552,7 +552,7 @@ Tabla de Contenido
     cursor: pointer;
     border-radius: 50%;
     pointer-events: auto;
-    background: #F02A44;
+    background: #eb5252;
 }
 
 .header .arrow i:after {
@@ -579,7 +579,7 @@ Tabla de Contenido
     transition: all .5s;
     display: block;
     pointer-events: none;
-    border: 4px solid #F02A44;
+    border: 4px solid #eb5252;
     border-radius: 50%;
     animation-duration: 1.2s;
     animation-name: intervalHamburgerBorder;
@@ -609,7 +609,7 @@ Tabla de Contenido
     margin: auto;
     height: 3px;
     width: 100%;
-    background-color: #F02A44;
+    background-color: #eb5252;
     transform-origin: 0.5 0;
 }
 
@@ -660,7 +660,7 @@ Tabla de Contenido
     left: 0;
     top: 0;
     height: 100%;
-    background: #F02A44;
+    background: #eb5252;
     width: 10%;
     border-radius: 10px;
     transition: all 1s;
@@ -741,8 +741,8 @@ Tabla de Contenido
 }
 
 .portfolio .filtering .active {
-    border-color: #F02A44;
-    color: #F02A44;
+    border-color: #eb5252;
+    color: #eb5252;
 }
 
 .portfolio .items {
@@ -781,8 +781,8 @@ Tabla de Contenido
 }
 
 .portfolio .item-img .fa {
-    background: #F02A44;
-    border: 1px solid #F02A44;
+    background: #eb5252;
+    border: 1px solid #eb5252;
     border-radius: 50%;
     color: #fff;
     display: inline-block;
@@ -794,7 +794,7 @@ Tabla de Contenido
 
 .portfolio .item-img .fa:hover {
     background: #fff;
-    color: #F02A44;
+    color: #eb5252;
 }
 
 .portfolio .item-img-overlay {
@@ -852,7 +852,7 @@ Tabla de Contenido
 ================================*/
 
 .team .owl-theme .owl-dot span {
-    border-color: #F02A44;
+    border-color: #eb5252;
 }
 
 .team-style img {
@@ -1014,7 +1014,7 @@ Tabla de Contenido
 }
 
 .contact .info .icon-toggle {
-    background: #F02A44;
+    background: #eb5252;
     font-size: 20px;
     transform: rotate(45deg);
     position: absolute;
@@ -1118,7 +1118,7 @@ Tabla de Contenido
 }
 
 .blog .item .content .author a {
-    color: #F02A44;
+    color: #eb5252;
 }
 
 .blog .item .content .read-more {
@@ -1127,7 +1127,7 @@ Tabla de Contenido
 }
 
 .blog .item .content .read-more:hover {
-    color: #F02A44;
+    color: #eb5252;
     text-decoration: none;
 }
 
@@ -1190,7 +1190,7 @@ Tabla de Contenido
 }
 
 .blog-header a.active {
-    color: #F02A44;
+    color: #eb5252;
 }
 
 .blogs .posts .post {
@@ -1214,7 +1214,7 @@ Tabla de Contenido
 }
 
 .blogs .posts .post .content .post-title h5 a:hover {
-    color: #F02A44;
+    color: #eb5252;
 }
 
 .blogs .posts .post .content .meta {
@@ -1246,7 +1246,7 @@ Tabla de Contenido
 
 .blogs .posts .post .content .btn:hover {
     color: #fff;
-    border-color: #F02A44;
+    border-color: #eb5252;
 }
 
 .blogs .posts .post .share-post {
@@ -1400,7 +1400,7 @@ Tabla de Contenido
     content: '';
     width: 30px;
     height: 1px;
-    background: #F02A44;
+    background: #eb5252;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -1546,7 +1546,7 @@ ul.countdown li p.timeRefSeconds {
 }
 
 .footer-social a:hover i {
-    color: #F02A44;
+    color: #eb5252;
 }
 
 .back-to-top {
@@ -1579,7 +1579,7 @@ ul.countdown li p.timeRefSeconds {
 }
 
 .back-to-top:hover {
-    background: #F02A44 !important;
+    background: #eb5252 !important;
 }
 
 .back-to-top.reveal {
@@ -1628,7 +1628,7 @@ ul.countdown li p.timeRefSeconds {
         color: #fff !important;
     }
     .nav-scroll .navbar-collapse .active {
-        color: #F02A44 !important;
+        color: #eb5252 !important;
     }
     .header {
         transition-timing-function: none;
