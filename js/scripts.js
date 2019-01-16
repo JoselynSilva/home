@@ -331,10 +331,3 @@ anime.timeline({ loop: false })
         duration: 1500,
         offset: '-=600'
     })
-    // .add({
-    //     targets: '.ml5',
-    //     opacity: 0,
-    //     duration: 1000,
-    //     easing: "easeOutExpo",
-    //     delay: 1000
-    // });
