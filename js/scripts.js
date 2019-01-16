@@ -32,7 +32,7 @@ $(function() {
     //  Preloader Activation
 
     $(window).on('load', function() {
-        $('#preloader').fadeOut('slow', function() {
+        $('#preloader').fadeOut('850', function() {
             $(this).remove();
         });
     });
