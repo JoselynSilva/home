@@ -13221,6 +13221,11 @@ section {
         font-size: 13px;
         line-height: 20px
     }
+    .logo-letter {
+        margin: 0px;
+        width: 300px;
+        height: 250px;
+    }
     h1,
     h2,
     h3,

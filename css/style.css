@@ -44,6 +44,12 @@ Tabla de Contenido
     background-attachment: fixed;
 }
 
+.logo-letter {
+    margin: 0px;
+    width: 520px;
+    height: 300px;
+}
+
 .valign {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -585,39 +591,6 @@ Tabla de Contenido
     animation-duration: 1.2s;
     animation-name: intervalHamburgerBorder;
     animation-iteration-count: infinite;
-}
-
-.ml5 {
-    position: relative;
-    font-weight: 400;
-    font-size: 3.7em;
-}
-
-.ml5 .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    line-height: 1em;
-}
-
-.ml5 .line {
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    height: 3px;
-    width: 100%;
-    background-color: #ff214f;
-    transform-origin: 0.5 0;
-}
-
-.ml5 .letters {
-    display: inline-block;
-    opacity: 0;
-    color: #ffffff;
-    font-family: 'Unica One', cursive;
 }
 
 .text-bold {
@@ -1606,9 +1579,6 @@ ul.countdown li p.timeRefSeconds {
 ================================*/
 
 @media screen and (max-width: 991px) {
-    .ml5 .letters {
-        font-size: 1.2em;
-    }
     .hero .story-video {
         min-height: 400px;
     }
@@ -1718,16 +1688,10 @@ ul.countdown li p.timeRefSeconds {
     }
 }
 
-@media screen and (min-width: 320px) {
-    .ml5 .letters {
-        font-size: 1.5em;
-    }
-}
 
-
-/*------------------------------
-  PRELOADER SECTION START
-  ------------------------------*/
+/*============================== 
+    Footer
+================================*/
 
 #preloader {
     background: white;
@@ -1766,10 +1730,4 @@ ul.countdown li p.timeRefSeconds {
         transform: scale(1);
         opacity: 0;
     }
-}
-
-.logo-letter {
-    margin: 0px;
-    width: 520px;
-    height: 325px;
 }
